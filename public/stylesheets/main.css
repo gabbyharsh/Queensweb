@@ -1,0 +1,186 @@
+#text{
+	  background: linear-gradient(to bottom, rgb(31, 36, 43) 50%, rgb(228,83,124) 50%);
+}
+#textContact{
+	background:linear-gradient(to right, rgb(31, 36, 43) 50%, rgb(228,83,124) 50%);
+	margin-top:4%;
+}
+
+/* NAV BAR CSS */
+nav{
+	font-family: 'Roboto Mono', monospace;
+	background:rgb(31, 36, 43);
+}
+
+#mainNavbar .navbar-brand{
+	color:rgb(228,83,124);
+	
+}
+#mainNavbar .nav-link{
+	color:white;
+}
+#mainNavbar .nav-link:hover{
+	color:rgb(228,83,124);
+}
+
+
+#mainNavbar{
+	font-size:1.5rem;
+	font-weight:100;
+}
+
+/* HOME PAGE CSS */
+div.home {
+  font-family: 'Roboto Mono', monospace;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding-bottom:7.5%;
+}
+
+div.home2{
+	padding-top:5%;
+	padding-bottom:4%;
+	object-fit:cover;
+}
+
+
+hr.home{
+	width:80%;
+	color:rgb(31, 36, 43);
+}
+
+h1.home{
+	letter-spacing:.15em;
+	font-size:60px;
+	color:rgb(252,252,252);
+}
+
+p.home{
+	font-weight:bold;
+	color:rgb(252,252,252);
+}
+
+/* ABOUT PAGE CSS */
+div.thumbnail{
+	 text-align:center;
+	 margin-top:15%;
+}
+
+div.rowA{
+	margin-right:10%;
+}
+
+div.about{
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align:left;
+}
+
+h1.about{
+	color:rgb(252,252,252);
+}
+
+p.about{
+	color:rgb(252,252,252);
+}
+
+/* TESTIMONIAL PAGE CSS */
+h1.testimonials{
+	color:rgb(228,83,124);
+}
+
+hr.testimonials{
+	width:35%;
+}
+div.testimonials{
+	margin-top:6%;
+	text-align:center;
+}
+
+p.head{
+	padding-top:100px;
+	color:rgb(228,83,124);
+	text-align:center;
+	font-weight:bold;
+}
+
+p.text{
+	color:white;
+	text-align:center;
+}
+
+
+div.Wrapper1 {
+	margin-left:25px;
+	margin-top:150px;
+	float:left;  
+    background:rgb(31, 36, 43); 
+    width:400px; 
+    height:280px;	
+}
+
+div.Wrapper2{
+	margin-left:60px;
+	margin-top:150px;
+	float:left;  
+    background:rgb(31, 36, 43); 
+    width:400px; 
+    height:280px;
+}
+
+div.Wrapper3 {
+	margin-right:25px;
+	margin-top:150px;
+	float:right; 
+    background:rgb(31, 36, 43); 
+    width:400px; 
+    height:280px;
+}
+
+div.img{
+    position: absolute;
+    z-index: 999;
+    top:200px;
+	margin-left:70px;
+    width: 260px;
+    text-align: center;
+}
+img.testimonials{
+	border-radius:50%;
+}
+
+/* CONTACT PAGE CSS */
+
+div.contact{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 15%;
+        text-align: left;
+        
+    }
+
+h1.contact{
+	color:rgb(31, 36, 43);
+}
+
+hr.contact{
+	color:rgb(228,83,124);
+	margin-bottom:10%;
+
+}
+
+p.contact{
+	margin-bottom:10%;
+}
+
+div.thumbnailC{
+	 text-align:center;
+	 margin-top:5%;
+	padding-bottom:16%;
+}
